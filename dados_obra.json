@@ -1,0 +1,2427 @@
+{
+  "parametros_gerais": {
+    "perda_padrao": 0.1,
+    "fck_padrao_mpa": 35,
+    "taxa_aco_viga_kg_m3": 100.0,
+    "taxa_aco_pilar_kg_m3": 90.0,
+    "preco_aco_kg": 8.5,
+    "largura_bloco_concreto_m": 0.4,
+    "altura_bloco_concreto_m": 0.2,
+    "altura_muro_divisa_m": 2.0,
+    "preco_m2_gesso": 45.0,
+    "preco_m2_forro": 60.0,
+    "preco_m2_piso": 80.0,
+    "preco_m2_parede_revest": 55.0,
+    "largura_media_viga_m": 0.2,
+    "altura_media_viga_m": 0.45
+  },
+  "catalogo": [
+    {
+      "segmento": "BÁSICOS",
+      "material": "AREIA MÉDIA",
+      "unidade": "M3",
+      "valor": 204.0
+    },
+    {
+      "segmento": "BÁSICOS",
+      "material": "AREIA FINA",
+      "unidade": "M3",
+      "valor": 219.0
+    },
+    {
+      "segmento": "BÁSICOS",
+      "material": "PEDRISCO",
+      "unidade": "M3",
+      "valor": 175.0
+    },
+    {
+      "segmento": "BÁSICOS",
+      "material": "CIMENTO",
+      "unidade": "UN",
+      "valor": 34.14
+    },
+    {
+      "segmento": "BÁSICOS",
+      "material": "ARGAMASSA C3 CINZA 25KG",
+      "unidade": "UN",
+      "valor": 35.0
+    },
+    {
+      "segmento": "CONCRETO",
+      "material": "CONCRETO FCK 25 MPA",
+      "unidade": "M3",
+      "valor": 440.0
+    },
+    {
+      "segmento": "CONCRETO",
+      "material": "CONCRETO FCK 30 MPA",
+      "unidade": "M3",
+      "valor": 470.0
+    },
+    {
+      "segmento": "CONCRETO",
+      "material": "CONCRETO FCK 35 MPA",
+      "unidade": "M3",
+      "valor": 480.0
+    },
+    {
+      "segmento": "BLOCOS",
+      "material": "CERAMICO CABEÇA 14X19X14",
+      "unidade": "UN",
+      "valor": 5.3
+    },
+    {
+      "segmento": "BLOCOS",
+      "material": "CERAMICO 14X19X39",
+      "unidade": "UN",
+      "valor": 2.73
+    },
+    {
+      "segmento": "BLOCOS",
+      "material": "CERAMICO CABEÇA 19X19X19",
+      "unidade": "UN",
+      "valor": 3.16
+    },
+    {
+      "segmento": "BLOCOS",
+      "material": "CONCRETO 14X19X14",
+      "unidade": "UN",
+      "valor": 2.62
+    },
+    {
+      "segmento": "BLOCOS",
+      "material": "CONCRETO 14X19X39",
+      "unidade": "UN",
+      "valor": 4.17
+    },
+    {
+      "segmento": "BLOCOS",
+      "material": "CONCRETO 19X19X19",
+      "unidade": "UN",
+      "valor": 3.16
+    },
+    {
+      "segmento": "BLOCOS",
+      "material": "CONCRETO 19X19X39",
+      "unidade": "UN",
+      "valor": 5.4
+    },
+    {
+      "segmento": "BLOCOS",
+      "material": "CONCRETO CANALETA 14X19X39",
+      "unidade": "UN",
+      "valor": 4.5
+    },
+    {
+      "segmento": "BLOCOS",
+      "material": "CONCRETO CANALETA 19X19X39",
+      "unidade": "UN",
+      "valor": 5.73
+    },
+    {
+      "segmento": "MADEIRAS",
+      "material": "MADEIRITE PLASTIFICADA 1,10 X 2,2",
+      "unidade": "UN",
+      "valor": 116.4
+    },
+    {
+      "segmento": "MADEIRAS",
+      "material": "SARRAFOS 3M X 7 CM",
+      "unidade": "UN",
+      "valor": 13.11
+    },
+    {
+      "segmento": "MADEIRAS",
+      "material": "TÁBUAS PINUS 3 M X 0,30 M",
+      "unidade": "UN",
+      "valor": 33.44
+    },
+    {
+      "segmento": "MADEIRAS",
+      "material": "TÁBUAS MISTAS 3 M X 0,30 M",
+      "unidade": "UN",
+      "valor": 56.31
+    },
+    {
+      "segmento": "DIVERSOS",
+      "material": "BROCHA",
+      "unidade": "UN",
+      "valor": 11.9
+    },
+    {
+      "segmento": "DIVERSOS",
+      "material": "CAIXA DAGUA 2000 L",
+      "unidade": "UN",
+      "valor": 1800.0
+    },
+    {
+      "segmento": "DIVERSOS",
+      "material": "PREGOS 18X27",
+      "unidade": "KG",
+      "valor": 15.0
+    },
+    {
+      "segmento": "DIVERSOS",
+      "material": "PREGOS 17X21",
+      "unidade": "KG",
+      "valor": 15.0
+    },
+    {
+      "segmento": "DIVERSOS",
+      "material": "ARAME 18",
+      "unidade": "KG",
+      "valor": 12.38
+    },
+    {
+      "segmento": "DIVERSOS",
+      "material": "ARAME 12",
+      "unidade": "KG",
+      "valor": 12.38
+    },
+    {
+      "segmento": "DIVERSOS",
+      "material": "ESPAÇADORES",
+      "unidade": "UNIDADES",
+      "valor": 0.8
+    },
+    {
+      "segmento": "QUÍMICOS",
+      "material": "VIAPLUS1000",
+      "unidade": "UN",
+      "valor": 55.6
+    },
+    {
+      "segmento": "QUÍMICOS",
+      "material": "VIAPLUS7000",
+      "unidade": "UN",
+      "valor": 221.0
+    },
+    {
+      "segmento": "QUÍMICOS",
+      "material": "ADITIVO CRISTALIZANTE",
+      "unidade": "UN",
+      "valor": 130.0
+    },
+    {
+      "segmento": "QUÍMICOS",
+      "material": "NEUTROL VEDACIT",
+      "unidade": "UN",
+      "valor": 273.0
+    },
+    {
+      "segmento": "QUÍMICOS",
+      "material": "LIGMASSA GALÃO 5 L",
+      "unidade": "UN",
+      "valor": 44.5
+    },
+    {
+      "segmento": "QUÍMICOS",
+      "material": "SAQUINHO MACTRACOL",
+      "unidade": "UN",
+      "valor": 28.9
+    },
+    {
+      "segmento": "AÇOS",
+      "material": "VERGALHÃO 10MM 12 METROS",
+      "unidade": "UN",
+      "valor": 41.87
+    },
+    {
+      "segmento": "AÇOS",
+      "material": "TELA POP - 4.2 3 X 2",
+      "unidade": "UN",
+      "valor": 72.9
+    },
+    {
+      "segmento": "EQUIPAMENTOS",
+      "material": "VIBRADOR 1,5 3CM 10A",
+      "unidade": "DIARIA",
+      "valor": 165.0
+    },
+    {
+      "segmento": "EQUIPAMENTOS",
+      "material": "COMPACTADOR SAPO",
+      "unidade": "DIARIA",
+      "valor": 272.0
+    },
+    {
+      "segmento": "EQUIPAMENTOS",
+      "material": "ESCORA METÁLICA",
+      "unidade": "MENSAL / PÇ",
+      "valor": 16.0
+    },
+    {
+      "segmento": "EQUIPAMENTOS",
+      "material": "ANDAIME",
+      "unidade": "MENSAL / PÇ",
+      "valor": 9.0
+    },
+    {
+      "segmento": "ACABAMENTOS",
+      "material": "Cuba apoio",
+      "unidade": "UN",
+      "valor": 750.0
+    },
+    {
+      "segmento": "ACABAMENTOS",
+      "material": "Cuba slim",
+      "unidade": "UN",
+      "valor": 750.0
+    },
+    {
+      "segmento": "ACABAMENTOS",
+      "material": "Tanque",
+      "unidade": "UN",
+      "valor": 650.0
+    },
+    {
+      "segmento": "ACABAMENTOS",
+      "material": "Cuba inox",
+      "unidade": "UN",
+      "valor": 500.0
+    },
+    {
+      "segmento": "ACABAMENTOS",
+      "material": "Cuba inox pequena",
+      "unidade": "UN",
+      "valor": 450.0
+    },
+    {
+      "segmento": "ACABAMENTOS",
+      "material": "Chuveiro Acqua Plus",
+      "unidade": "UN",
+      "valor": 780.0
+    },
+    {
+      "segmento": "ACABAMENTOS",
+      "material": "Misturador Monocomando",
+      "unidade": "UN",
+      "valor": 650.0
+    },
+    {
+      "segmento": "ACABAMENTOS",
+      "material": "Torneira Simples",
+      "unidade": "UN",
+      "valor": 220.0
+    },
+    {
+      "segmento": "ACABAMENTOS",
+      "material": "Misturador Gourmet",
+      "unidade": "UN",
+      "valor": 900.0
+    },
+    {
+      "segmento": "TELHADO",
+      "material": "Telha fibrocimento",
+      "unidade": "un",
+      "valor": 95.0
+    },
+    {
+      "segmento": "TELHADO",
+      "material": "Cumeeira",
+      "unidade": "un",
+      "valor": 60.0
+    },
+    {
+      "segmento": "TELHADO",
+      "material": "Parafusos/vedação",
+      "unidade": "un",
+      "valor": 1.2
+    },
+    {
+      "segmento": "TELHADO",
+      "material": "Rufos",
+      "unidade": "m",
+      "valor": 90.0
+    },
+    {
+      "segmento": "TELHADO",
+      "material": "Calhas",
+      "unidade": "m",
+      "valor": 120.0
+    },
+    {
+      "segmento": "TELHADO",
+      "material": "Condutores",
+      "unidade": "m",
+      "valor": 50.0
+    },
+    {
+      "segmento": "TELHADO",
+      "material": "Caibros 5x6",
+      "unidade": "m",
+      "valor": 8.0
+    },
+    {
+      "segmento": "TELHADO",
+      "material": "Terças 5x10",
+      "unidade": "m",
+      "valor": 18.0
+    },
+    {
+      "segmento": "TELHADO",
+      "material": "Vigas 6x12/16",
+      "unidade": "m",
+      "valor": 35.0
+    },
+    {
+      "segmento": "TELHADO",
+      "material": "Fixações diversas",
+      "unidade": "vb",
+      "valor": 1200.0
+    },
+    {
+      "segmento": "TELHADO",
+      "material": "Cantoneiras/chapas",
+      "unidade": "vb",
+      "valor": 800.0
+    }
+  ],
+  "lst_dados": {
+    "vigas": [
+      {
+        "pavimento": "TERREO",
+        "viga": "V401",
+        "comprimento_total_m": 6.123,
+        "largura_m": 0.19,
+        "altura_m": 0.5,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V402",
+        "comprimento_total_m": 7.711,
+        "largura_m": 0.19,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V403",
+        "comprimento_total_m": 4.453,
+        "largura_m": 0.3,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V404",
+        "comprimento_total_m": 3.258,
+        "largura_m": 0.14,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V405",
+        "comprimento_total_m": 3.511,
+        "largura_m": 0.14,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V406",
+        "comprimento_total_m": 1.574,
+        "largura_m": 0.14,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V407",
+        "comprimento_total_m": 5.24,
+        "largura_m": 0.3,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V408",
+        "comprimento_total_m": 3.773,
+        "largura_m": 0.14,
+        "altura_m": 0.5,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V409",
+        "comprimento_total_m": 11.529,
+        "largura_m": 0.14,
+        "altura_m": 0.4,
+        "secao_variavel": true
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V410",
+        "comprimento_total_m": 4.26,
+        "largura_m": 0.14,
+        "altura_m": 0.5,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V411",
+        "comprimento_total_m": 11.209,
+        "largura_m": 0.14,
+        "altura_m": 0.5,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V412",
+        "comprimento_total_m": 3.744,
+        "largura_m": 0.14,
+        "altura_m": 0.5,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V413",
+        "comprimento_total_m": 0.82,
+        "largura_m": 0.14,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V414",
+        "comprimento_total_m": 2.312,
+        "largura_m": 0.14,
+        "altura_m": 0.5,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V415",
+        "comprimento_total_m": 4.189,
+        "largura_m": 0.19,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V416",
+        "comprimento_total_m": 9.021,
+        "largura_m": 0.14,
+        "altura_m": 0.4,
+        "secao_variavel": true
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V801",
+        "comprimento_total_m": 1.467,
+        "largura_m": 0.12,
+        "altura_m": 0.5,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V802",
+        "comprimento_total_m": 1.467,
+        "largura_m": 0.12,
+        "altura_m": 0.5,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "TERREO",
+        "viga": "V803",
+        "comprimento_total_m": 1.467,
+        "largura_m": 0.12,
+        "altura_m": 0.5,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "COBERTURA",
+        "viga": "V501",
+        "comprimento_total_m": 6.203,
+        "largura_m": 0.14,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "COBERTURA",
+        "viga": "V502",
+        "comprimento_total_m": 7.711,
+        "largura_m": 0.14,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "COBERTURA",
+        "viga": "V503",
+        "comprimento_total_m": 7.711,
+        "largura_m": 0.14,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "COBERTURA",
+        "viga": "V504",
+        "comprimento_total_m": 3.511,
+        "largura_m": 0.14,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "COBERTURA",
+        "viga": "V505",
+        "comprimento_total_m": 7.536,
+        "largura_m": 0.14,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "COBERTURA",
+        "viga": "V506",
+        "comprimento_total_m": 7.935,
+        "largura_m": 0.14,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "COBERTURA",
+        "viga": "V507",
+        "comprimento_total_m": 4.235,
+        "largura_m": 0.14,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "COBERTURA",
+        "viga": "V508",
+        "comprimento_total_m": 11.209,
+        "largura_m": 0.14,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "COBERTURA",
+        "viga": "V509",
+        "comprimento_total_m": 0.82,
+        "largura_m": 0.14,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "COBERTURA",
+        "viga": "V510",
+        "comprimento_total_m": 12.205,
+        "largura_m": 0.14,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V101",
+        "comprimento_total_m": 9.842,
+        "largura_m": 0.5,
+        "altura_m": 0.3,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V102",
+        "comprimento_total_m": 1.6,
+        "largura_m": 0.19,
+        "altura_m": 0.3,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V103",
+        "comprimento_total_m": 4.8,
+        "largura_m": 0.19,
+        "altura_m": 0.3,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V104",
+        "comprimento_total_m": 1.755,
+        "largura_m": 0.19,
+        "altura_m": 0.3,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V105",
+        "comprimento_total_m": 2.355,
+        "largura_m": 0.19,
+        "altura_m": 0.3,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V106",
+        "comprimento_total_m": 2.355,
+        "largura_m": 0.19,
+        "altura_m": 0.3,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V201",
+        "comprimento_total_m": 9.692,
+        "largura_m": 0.2,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V202",
+        "comprimento_total_m": 1.75,
+        "largura_m": 0.2,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V203",
+        "comprimento_total_m": 7.381,
+        "largura_m": 0.2,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V204",
+        "comprimento_total_m": 3.228,
+        "largura_m": 0.2,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V205",
+        "comprimento_total_m": 4.453,
+        "largura_m": 0.2,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V206",
+        "comprimento_total_m": 2.928,
+        "largura_m": 0.2,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V207",
+        "comprimento_total_m": 3.231,
+        "largura_m": 0.2,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V208",
+        "comprimento_total_m": 6.001,
+        "largura_m": 0.2,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V209",
+        "comprimento_total_m": 6.885,
+        "largura_m": 0.2,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V210",
+        "comprimento_total_m": 4.265,
+        "largura_m": 0.2,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V211",
+        "comprimento_total_m": 7.506,
+        "largura_m": 0.2,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V212",
+        "comprimento_total_m": 0.82,
+        "largura_m": 0.2,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V213",
+        "comprimento_total_m": 1.47,
+        "largura_m": 0.28,
+        "altura_m": 0.6,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V215",
+        "comprimento_total_m": 12.134,
+        "largura_m": 0.2,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V216",
+        "comprimento_total_m": 2.998,
+        "largura_m": 0.25,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V301",
+        "comprimento_total_m": 4.546,
+        "largura_m": 0.25,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V302",
+        "comprimento_total_m": 9.225,
+        "largura_m": 0.25,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V303",
+        "comprimento_total_m": 17.701,
+        "largura_m": 0.25,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V304",
+        "comprimento_total_m": 5.01,
+        "largura_m": 0.2,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V305",
+        "comprimento_total_m": 9.692,
+        "largura_m": 0.2,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V306",
+        "comprimento_total_m": 3.666,
+        "largura_m": 0.25,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V307",
+        "comprimento_total_m": 3.702,
+        "largura_m": 0.3,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "RESPALDO",
+        "viga": "V308",
+        "comprimento_total_m": 2.948,
+        "largura_m": 0.3,
+        "altura_m": 0.4,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "CX DAGUA",
+        "viga": "V601",
+        "comprimento_total_m": 3.258,
+        "largura_m": 0.14,
+        "altura_m": 0.3,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "CX DAGUA",
+        "viga": "V602",
+        "comprimento_total_m": 3.258,
+        "largura_m": 0.14,
+        "altura_m": 0.3,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "CX DAGUA",
+        "viga": "V603",
+        "comprimento_total_m": 3.893,
+        "largura_m": 0.14,
+        "altura_m": 0.3,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "CX DAGUA",
+        "viga": "V604",
+        "comprimento_total_m": 3.693,
+        "largura_m": 0.14,
+        "altura_m": 0.3,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "FUNDO PISCINA",
+        "viga": "V1",
+        "comprimento_total_m": 6.4,
+        "largura_m": 0.19,
+        "altura_m": 0.5,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "FUNDO PISCINA",
+        "viga": "V2",
+        "comprimento_total_m": 1.6,
+        "largura_m": 0.19,
+        "altura_m": 0.5,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "FUNDO PISCINA",
+        "viga": "V3",
+        "comprimento_total_m": 4.8,
+        "largura_m": 0.19,
+        "altura_m": 0.5,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "FUNDO PISCINA",
+        "viga": "V4",
+        "comprimento_total_m": 1.755,
+        "largura_m": 0.19,
+        "altura_m": 0.5,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "FUNDO PISCINA",
+        "viga": "V5",
+        "comprimento_total_m": 2.355,
+        "largura_m": 0.19,
+        "altura_m": 0.5,
+        "secao_variavel": false
+      },
+      {
+        "pavimento": "FUNDO PISCINA",
+        "viga": "V6",
+        "comprimento_total_m": 2.355,
+        "largura_m": 0.19,
+        "altura_m": 0.5,
+        "secao_variavel": false
+      }
+    ],
+    "pilares": [
+      {
+        "pavimento": "TERREO",
+        "pilar": "P1",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.19,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "TERREO",
+        "pilar": "P2",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.19,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "TERREO",
+        "pilar": "P3",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.19,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "TERREO",
+        "pilar": "P4",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.19,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "TERREO",
+        "pilar": "P5",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.19,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "TERREO",
+        "pilar": "P6",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.19,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "TERREO",
+        "pilar": "P7",
+        "area_estruturada_m2": 0.08,
+        "area_formas_m2": 4.27,
+        "volume_concreto_m3": 0.28,
+        "volume_topo_m3": 0.04,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "TERREO",
+        "pilar": "P8",
+        "area_estruturada_m2": 0.06,
+        "area_formas_m2": 3.91,
+        "volume_concreto_m3": 0.2,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "TERREO",
+        "pilar": "P9",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.19,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "TERREO",
+        "pilar": "P10",
+        "area_estruturada_m2": 0.06,
+        "area_formas_m2": 4.27,
+        "volume_concreto_m3": 0.23,
+        "volume_topo_m3": 0.03,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "TERREO",
+        "pilar": "P11",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.19,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "TERREO",
+        "pilar": "P12",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.19,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.03,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "TERREO",
+        "pilar": "P13",
+        "area_estruturada_m2": 0.09,
+        "area_formas_m2": 5.79,
+        "volume_concreto_m3": 0.33,
+        "volume_topo_m3": 0.05,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "TERREO",
+        "pilar": "P14",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.19,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.03,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "TERREO",
+        "pilar": "P15",
+        "area_estruturada_m2": 0.07,
+        "area_formas_m2": 4.63,
+        "volume_concreto_m3": 0.25,
+        "volume_topo_m3": 0.04,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "TERREO",
+        "pilar": "P16",
+        "area_estruturada_m2": 0.09,
+        "area_formas_m2": 4.92,
+        "volume_concreto_m3": 0.34,
+        "volume_topo_m3": 0.0,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "TERREO",
+        "pilar": "P17",
+        "area_estruturada_m2": 0.07,
+        "area_formas_m2": 3.39,
+        "volume_concreto_m3": 0.25,
+        "volume_topo_m3": 0.03,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "TERREO",
+        "pilar": "P18",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.19,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.62"
+      },
+      {
+        "pavimento": "COBERTURA",
+        "pilar": "P3",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.04,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.46"
+      },
+      {
+        "pavimento": "COBERTURA",
+        "pilar": "P4",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.04,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.46"
+      },
+      {
+        "pavimento": "COBERTURA",
+        "pilar": "P5",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.04,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.46"
+      },
+      {
+        "pavimento": "COBERTURA",
+        "pilar": "P6",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.04,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.46"
+      },
+      {
+        "pavimento": "COBERTURA",
+        "pilar": "P7",
+        "area_estruturada_m2": 0.08,
+        "area_formas_m2": 4.08,
+        "volume_concreto_m3": 0.26,
+        "volume_topo_m3": 0.03,
+        "pe_direito_ref_m": "3.46"
+      },
+      {
+        "pavimento": "COBERTURA",
+        "pilar": "P8",
+        "area_estruturada_m2": 0.06,
+        "area_formas_m2": 3.74,
+        "volume_concreto_m3": 0.19,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.46"
+      },
+      {
+        "pavimento": "COBERTURA",
+        "pilar": "P9",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.04,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.46"
+      },
+      {
+        "pavimento": "COBERTURA",
+        "pilar": "P11",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.04,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.46"
+      },
+      {
+        "pavimento": "COBERTURA",
+        "pilar": "P12",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.04,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.46"
+      },
+      {
+        "pavimento": "COBERTURA",
+        "pilar": "P13",
+        "area_estruturada_m2": 0.09,
+        "area_formas_m2": 5.54,
+        "volume_concreto_m3": 0.32,
+        "volume_topo_m3": 0.04,
+        "pe_direito_ref_m": "3.46"
+      },
+      {
+        "pavimento": "COBERTURA",
+        "pilar": "P14",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.04,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.46"
+      },
+      {
+        "pavimento": "COBERTURA",
+        "pilar": "P15",
+        "area_estruturada_m2": 0.07,
+        "area_formas_m2": 4.43,
+        "volume_concreto_m3": 0.24,
+        "volume_topo_m3": 0.03,
+        "pe_direito_ref_m": "3.46"
+      },
+      {
+        "pavimento": "COBERTURA",
+        "pilar": "P16",
+        "area_estruturada_m2": 0.09,
+        "area_formas_m2": 4.71,
+        "volume_concreto_m3": 0.32,
+        "volume_topo_m3": 0.04,
+        "pe_direito_ref_m": "3.46"
+      },
+      {
+        "pavimento": "COBERTURA",
+        "pilar": "P101",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.04,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.46"
+      },
+      {
+        "pavimento": "COBERTURA",
+        "pilar": "P102",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.04,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.46"
+      },
+      {
+        "pavimento": "COBERTURA",
+        "pilar": "P103",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 3.04,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": "3.46"
+      },
+      {
+        "pavimento": "RESPALDO",
+        "pilar": "PP1",
+        "area_estruturada_m2": 0.1,
+        "area_formas_m2": 1.93,
+        "volume_concreto_m3": 0.13,
+        "volume_topo_m3": 0.03,
+        "pe_direito_ref_m": "1.4"
+      },
+      {
+        "pavimento": "RESPALDO",
+        "pilar": "PP2",
+        "area_estruturada_m2": 0.1,
+        "area_formas_m2": 1.93,
+        "volume_concreto_m3": 0.13,
+        "volume_topo_m3": 0.03,
+        "pe_direito_ref_m": "1.4"
+      },
+      {
+        "pavimento": "RESPALDO",
+        "pilar": "PP3",
+        "area_estruturada_m2": 0.1,
+        "area_formas_m2": 1.93,
+        "volume_concreto_m3": 0.13,
+        "volume_topo_m3": 0.03,
+        "pe_direito_ref_m": "1.4"
+      },
+      {
+        "pavimento": "RESPALDO",
+        "pilar": "PP4",
+        "area_estruturada_m2": 0.1,
+        "area_formas_m2": 1.93,
+        "volume_concreto_m3": 0.13,
+        "volume_topo_m3": 0.03,
+        "pe_direito_ref_m": "1.4"
+      },
+      {
+        "pavimento": "RESPALDO",
+        "pilar": "PP5",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 1.06,
+        "volume_concreto_m3": 0.05,
+        "volume_topo_m3": 0.01,
+        "pe_direito_ref_m": "1.4"
+      },
+      {
+        "pavimento": "RESPALDO",
+        "pilar": "PP6",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 1.06,
+        "volume_concreto_m3": 0.05,
+        "volume_topo_m3": 0.01,
+        "pe_direito_ref_m": "1.4"
+      },
+      {
+        "pavimento": "RESPALDO",
+        "pilar": "PP7",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 1.06,
+        "volume_concreto_m3": 0.05,
+        "volume_topo_m3": 0.01,
+        "pe_direito_ref_m": "1.4"
+      },
+      {
+        "pavimento": "RESPALDO",
+        "pilar": "PP8",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 1.06,
+        "volume_concreto_m3": 0.05,
+        "volume_topo_m3": 0.01,
+        "pe_direito_ref_m": "1.4"
+      },
+      {
+        "pavimento": "CX DAGUA",
+        "pilar": "P6",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 1.76,
+        "volume_concreto_m3": 0.08,
+        "volume_topo_m3": 0.01,
+        "pe_direito_ref_m": ""
+      },
+      {
+        "pavimento": "CX DAGUA",
+        "pilar": "P7",
+        "area_estruturada_m2": 0.08,
+        "area_formas_m2": 2.36,
+        "volume_concreto_m3": 0.15,
+        "volume_topo_m3": 0.02,
+        "pe_direito_ref_m": ""
+      },
+      {
+        "pavimento": "CX DAGUA",
+        "pilar": "P9",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 1.76,
+        "volume_concreto_m3": 0.08,
+        "volume_topo_m3": 0.01,
+        "pe_direito_ref_m": ""
+      },
+      {
+        "pavimento": "CX DAGUA",
+        "pilar": "P103",
+        "area_estruturada_m2": 0.04,
+        "area_formas_m2": 1.76,
+        "volume_concreto_m3": 0.08,
+        "volume_topo_m3": 0.01,
+        "pe_direito_ref_m": ""
+      }
+    ],
+    "arquivos": [
+      "TERREO",
+      "COBERTURA",
+      "RESPALDO",
+      "CX DAGUA",
+      "FUNDO PISCINA"
+    ]
+  },
+  "fundacao": {
+    "estacas": [
+      {
+        "tipo": "FIXO Ø0,50m",
+        "qtd": 11,
+        "profundidade_m": 8.4,
+        "diametro_m": 0.5,
+        "fck_mpa": 25
+      },
+      {
+        "tipo": "Ø0,40m",
+        "qtd": 9,
+        "profundidade_m": 8.4,
+        "diametro_m": 0.4,
+        "fck_mpa": 25
+      },
+      {
+        "tipo": "Ø0,30m (A)",
+        "qtd": 8,
+        "profundidade_m": 8.4,
+        "diametro_m": 0.3,
+        "fck_mpa": 25
+      },
+      {
+        "tipo": "Ø0,30m (B)",
+        "qtd": 17,
+        "profundidade_m": 4.4,
+        "diametro_m": 0.3,
+        "fck_mpa": 25
+      },
+      {
+        "tipo": "Ø0,30m (C)",
+        "qtd": 8,
+        "profundidade_m": 7.0,
+        "diametro_m": 0.3,
+        "fck_mpa": 25
+      }
+    ],
+    "blocos_baldrame": [
+      {
+        "nomenclatura": "BLOCOS SIMPLES 0,60X0,60X0,60",
+        "comprimento_m": 0.6,
+        "largura_m": 0.6,
+        "altura_m": 0.6,
+        "fck_mpa": 35,
+        "quantidade": 6
+      },
+      {
+        "nomenclatura": "BLOCOS SIMPLES 0,6X0,6X0,5",
+        "comprimento_m": 0.6,
+        "largura_m": 0.6,
+        "altura_m": 0.5,
+        "fck_mpa": 25,
+        "quantidade": 8
+      },
+      {
+        "nomenclatura": "BLOCOS SIMPLES 0,80X0,80X0,60",
+        "comprimento_m": 0.8,
+        "largura_m": 0.8,
+        "altura_m": 0.6,
+        "fck_mpa": 25,
+        "quantidade": 4
+      },
+      {
+        "nomenclatura": "BLOCOS SIMPLES 0,7X0,7X0,6",
+        "comprimento_m": 0.7,
+        "largura_m": 0.7,
+        "altura_m": 0.6,
+        "fck_mpa": 25,
+        "quantidade": 1
+      },
+      {
+        "nomenclatura": "BLOCOS DUPLOS 1,5X0,6X0,6",
+        "comprimento_m": 1.5,
+        "largura_m": 0.6,
+        "altura_m": 0.6,
+        "fck_mpa": 25,
+        "quantidade": 1
+      },
+      {
+        "nomenclatura": "BLOCOS DUPLOS 1,9X0,7X0,60",
+        "comprimento_m": 1.9,
+        "largura_m": 0.7,
+        "altura_m": 0.6,
+        "fck_mpa": 25,
+        "quantidade": 4
+      },
+      {
+        "nomenclatura": "BLOCOS DUPLOS 2,3X0,8X0,7",
+        "comprimento_m": 2.3,
+        "largura_m": 0.8,
+        "altura_m": 0.7,
+        "fck_mpa": 25,
+        "quantidade": 2
+      },
+      {
+        "nomenclatura": "BLOCOS TRIPLOS",
+        "comprimento_m": 2.267,
+        "largura_m": 1.0,
+        "altura_m": 0.7,
+        "fck_mpa": 25,
+        "quantidade": 1
+      }
+    ]
+  },
+  "alvenaria": {
+    "paredes": [
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "MURO - MINI 1",
+        "comprimento_m": 4.0,
+        "altura_m": 0.4,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "MURO - MINI 2",
+        "comprimento_m": 4.0,
+        "altura_m": 0.4,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "MURO - M1",
+        "comprimento_m": 4.49,
+        "altura_m": 0.8,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "MURO - M2",
+        "comprimento_m": 9.32,
+        "altura_m": 0.8,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "MURO - M3",
+        "comprimento_m": 21.01,
+        "altura_m": 0.8,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "MURO - M4",
+        "comprimento_m": 10.0,
+        "altura_m": 0.8,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "EMB. GARAGEM 01",
+        "comprimento_m": 3.62,
+        "altura_m": 0.2,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "EMB. GARAGEM 02",
+        "comprimento_m": 2.28,
+        "altura_m": 0.2,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "EMB. GARAGEM 03",
+        "comprimento_m": 1.7,
+        "altura_m": 0.2,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "EMB. GARAGEM 04",
+        "comprimento_m": 2.22,
+        "altura_m": 0.2,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "PAR01",
+        "comprimento_m": 6.35,
+        "altura_m": 0.8,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "PAR02",
+        "comprimento_m": 1.63,
+        "altura_m": 0.8,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "PAR03",
+        "comprimento_m": 1.63,
+        "altura_m": 0.8,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "PAR04",
+        "comprimento_m": 3.13,
+        "altura_m": 0.8,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "PAR05",
+        "comprimento_m": 3.13,
+        "altura_m": 0.8,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "PAR06",
+        "comprimento_m": 3.77,
+        "altura_m": 0.8,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "PAR07",
+        "comprimento_m": 4.01,
+        "altura_m": 0.8,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "PAR08",
+        "comprimento_m": 7.19,
+        "altura_m": 0.8,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "PAR09",
+        "comprimento_m": 4.16,
+        "altura_m": 0.8,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "PAR10",
+        "comprimento_m": 4.51,
+        "altura_m": 0.8,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "EMBASAMENTO",
+        "identificacao": "PAR11",
+        "comprimento_m": 12.26,
+        "altura_m": 0.8,
+        "bloco": "CONCRETO 14X19X39"
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "M1",
+        "comprimento_m": 4.49,
+        "altura_m": 1.4,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "M2",
+        "comprimento_m": 9.32,
+        "altura_m": 1.4,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "M3",
+        "comprimento_m": 21.01,
+        "altura_m": 1.4,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "M4",
+        "comprimento_m": 10.0,
+        "altura_m": 1.4,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR01",
+        "comprimento_m": 6.35,
+        "altura_m": 2.4,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR02",
+        "comprimento_m": 1.63,
+        "altura_m": 2.4,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR03",
+        "comprimento_m": 1.63,
+        "altura_m": 2.4,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR04",
+        "comprimento_m": 3.13,
+        "altura_m": 2.4,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR05",
+        "comprimento_m": 3.13,
+        "altura_m": 2.4,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR06",
+        "comprimento_m": 3.77,
+        "altura_m": 2.4,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR07",
+        "comprimento_m": 4.01,
+        "altura_m": 2.4,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR08",
+        "comprimento_m": 7.19,
+        "altura_m": 2.4,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR09",
+        "comprimento_m": 4.16,
+        "altura_m": 2.4,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR10",
+        "comprimento_m": 4.51,
+        "altura_m": 2.4,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR11",
+        "comprimento_m": 12.26,
+        "altura_m": 2.4,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR01",
+        "comprimento_m": 6.35,
+        "altura_m": 3.0,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR02",
+        "comprimento_m": 7.86,
+        "altura_m": 3.0,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR03",
+        "comprimento_m": 2.55,
+        "altura_m": 3.0,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR04",
+        "comprimento_m": 3.52,
+        "altura_m": 3.0,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR05",
+        "comprimento_m": 3.27,
+        "altura_m": 3.0,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR06",
+        "comprimento_m": 3.11,
+        "altura_m": 3.0,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR07",
+        "comprimento_m": 4.09,
+        "altura_m": 3.0,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR08",
+        "comprimento_m": 8.11,
+        "altura_m": 3.0,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR09",
+        "comprimento_m": 4.16,
+        "altura_m": 3.0,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR10",
+        "comprimento_m": 1.54,
+        "altura_m": 3.0,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR11",
+        "comprimento_m": 3.65,
+        "altura_m": 3.0,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR12",
+        "comprimento_m": 0.91,
+        "altura_m": 3.0,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR13",
+        "comprimento_m": 2.34,
+        "altura_m": 3.0,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR14",
+        "comprimento_m": 4.16,
+        "altura_m": 3.0,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR15",
+        "comprimento_m": 12.27,
+        "altura_m": 3.0,
+        "bloco": "CERAMICO 14X19X39"
+      },
+      {
+        "pavimento": "PISCINA",
+        "identificacao": "PISC01",
+        "comprimento_m": 5.0,
+        "altura_m": 1.4,
+        "bloco": "CONCRETO 19X19X19"
+      },
+      {
+        "pavimento": "PISCINA",
+        "identificacao": "PISC02",
+        "comprimento_m": 5.0,
+        "altura_m": 1.4,
+        "bloco": "CONCRETO 19X19X19"
+      },
+      {
+        "pavimento": "PISCINA",
+        "identificacao": "PISC03",
+        "comprimento_m": 2.4,
+        "altura_m": 1.4,
+        "bloco": "CONCRETO 19X19X19"
+      },
+      {
+        "pavimento": "PISCINA",
+        "identificacao": "PISC04",
+        "comprimento_m": 2.4,
+        "altura_m": 1.4,
+        "bloco": "CONCRETO 19X19X19"
+      }
+    ]
+  },
+  "gesso": {
+    "paredes": [
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR01",
+        "comprimento_m": 6.35,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR02",
+        "comprimento_m": 1.63,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR03",
+        "comprimento_m": 1.63,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR04",
+        "comprimento_m": 3.13,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR05",
+        "comprimento_m": 3.13,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR06",
+        "comprimento_m": 3.77,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR07",
+        "comprimento_m": 4.01,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR08",
+        "comprimento_m": 7.19,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR09",
+        "comprimento_m": 4.16,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR10",
+        "comprimento_m": 4.51,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "TÉRREO",
+        "identificacao": "PAR11",
+        "comprimento_m": 12.26,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR01",
+        "comprimento_m": 6.35,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR02",
+        "comprimento_m": 7.86,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR03",
+        "comprimento_m": 2.55,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR04",
+        "comprimento_m": 3.52,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR05",
+        "comprimento_m": 3.27,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR06",
+        "comprimento_m": 3.11,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR07",
+        "comprimento_m": 4.09,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR08",
+        "comprimento_m": 8.11,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR09",
+        "comprimento_m": 4.16,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR10",
+        "comprimento_m": 1.54,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR11",
+        "comprimento_m": 3.65,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR12",
+        "comprimento_m": 0.91,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR13",
+        "comprimento_m": 2.34,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR14",
+        "comprimento_m": 4.16,
+        "pe_direito_m": 3.0
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "identificacao": "PAR15",
+        "comprimento_m": 12.27,
+        "pe_direito_m": 3.0
+      }
+    ]
+  },
+  "forro": {
+    "ambientes": [
+      {
+        "pavimento": "TÉRREO",
+        "nome": "GARAGEM",
+        "area_m2": 23.13
+      },
+      {
+        "pavimento": "TÉRREO",
+        "nome": "SALA DE ESTAR",
+        "area_m2": 11.18
+      },
+      {
+        "pavimento": "TÉRREO",
+        "nome": "SALA DE JANTAR",
+        "area_m2": 18.52
+      },
+      {
+        "pavimento": "TÉRREO",
+        "nome": "COZINHA",
+        "area_m2": 17.19
+      },
+      {
+        "pavimento": "TÉRREO",
+        "nome": "DESPENSA",
+        "area_m2": 4.14
+      },
+      {
+        "pavimento": "TÉRREO",
+        "nome": "LAVANDERIA",
+        "area_m2": 5.74
+      },
+      {
+        "pavimento": "TÉRREO",
+        "nome": "DEPÓSITO",
+        "area_m2": 3.04
+      },
+      {
+        "pavimento": "TÉRREO",
+        "nome": "ÁREA GOURMET",
+        "area_m2": 12.95
+      },
+      {
+        "pavimento": "TÉRREO",
+        "nome": "BANHEIRO 01",
+        "area_m2": 3.19
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "nome": "VARANDA",
+        "area_m2": 2.93
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "nome": "DORMITÓRIO 02",
+        "area_m2": 8.71
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "nome": "HOME OFFICE CIRCULAÇÃO",
+        "area_m2": 13.99
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "nome": "CLOSET",
+        "area_m2": 7.18
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "nome": "BANHEIRO 02",
+        "area_m2": 3.35
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "nome": "SUITE MASTER",
+        "area_m2": 13.5
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "nome": "BANHEIRO 03",
+        "area_m2": 9.44
+      }
+    ]
+  },
+  "metragens": {
+    "piso": [
+      {
+        "pavimento": "TÉRREO",
+        "nome": "GARAGEM",
+        "area_m2": 23.13
+      },
+      {
+        "pavimento": "TÉRREO",
+        "nome": "SALA DE ESTAR",
+        "area_m2": 11.18
+      },
+      {
+        "pavimento": "TÉRREO",
+        "nome": "SALA DE JANTAR",
+        "area_m2": 18.52
+      },
+      {
+        "pavimento": "TÉRREO",
+        "nome": "COZINHA",
+        "area_m2": 17.19
+      },
+      {
+        "pavimento": "TÉRREO",
+        "nome": "DESPENSA",
+        "area_m2": 4.14
+      },
+      {
+        "pavimento": "TÉRREO",
+        "nome": "LAVANDERIA",
+        "area_m2": 5.74
+      },
+      {
+        "pavimento": "TÉRREO",
+        "nome": "DEPÓSITO",
+        "area_m2": 3.04
+      },
+      {
+        "pavimento": "TÉRREO",
+        "nome": "ÁREA GOURMET",
+        "area_m2": 12.95
+      },
+      {
+        "pavimento": "TÉRREO",
+        "nome": "BANHEIRO 01",
+        "area_m2": 3.19
+      },
+      {
+        "pavimento": "TÉRREO",
+        "nome": "ÁREA EXTERNA",
+        "area_m2": 38.17
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "nome": "VARANDA",
+        "area_m2": 2.93
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "nome": "DORMITÓRIO 02",
+        "area_m2": 8.71
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "nome": "HOME OFFICE CIRCULAÇÃO",
+        "area_m2": 13.99
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "nome": "CLOSET",
+        "area_m2": 7.18
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "nome": "BANHEIRO 02",
+        "area_m2": 3.35
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "nome": "SUITE MASTER",
+        "area_m2": 13.5
+      },
+      {
+        "pavimento": "SUPERIOR",
+        "nome": "BANHEIRO 03",
+        "area_m2": 9.44
+      }
+    ],
+    "parede": []
+  },
+  "acabamentos": {
+    "itens": [
+      {
+        "ambiente": "WC",
+        "item": "Cuba",
+        "material": "Cuba apoio",
+        "marca": "Deca",
+        "qtd": 1
+      },
+      {
+        "ambiente": "WC SUITE 1",
+        "item": "Cuba",
+        "material": "Cuba apoio",
+        "marca": "Deca",
+        "qtd": 1
+      },
+      {
+        "ambiente": "WC SUITE 2",
+        "item": "Cuba",
+        "material": "Cuba apoio",
+        "marca": "Deca",
+        "qtd": 1
+      },
+      {
+        "ambiente": "WC SUITE MASTER",
+        "item": "Cuba",
+        "material": "Cuba apoio",
+        "marca": "Deca",
+        "qtd": 2
+      },
+      {
+        "ambiente": "Lavabo",
+        "item": "Cuba",
+        "material": "Cuba slim",
+        "marca": "Deca",
+        "qtd": 1
+      },
+      {
+        "ambiente": "Lavanderia",
+        "item": "Tanque",
+        "material": "Tanque",
+        "marca": "Deca",
+        "qtd": 1
+      },
+      {
+        "ambiente": "Cozinha",
+        "item": "Pia",
+        "material": "Cuba inox",
+        "marca": "Deca",
+        "qtd": 1
+      },
+      {
+        "ambiente": "WC Estar",
+        "item": "Cuba",
+        "material": "Cuba apoio",
+        "marca": "Deca",
+        "qtd": 1
+      },
+      {
+        "ambiente": "Área Gourmet",
+        "item": "Cuba",
+        "material": "Cuba inox",
+        "marca": "Deca",
+        "qtd": 1
+      },
+      {
+        "ambiente": "Bar",
+        "item": "Cuba",
+        "material": "Cuba inox pequena",
+        "marca": "Deca",
+        "qtd": 1
+      },
+      {
+        "ambiente": "WC",
+        "item": "Chuveiro",
+        "material": "Chuveiro Acqua Plus",
+        "marca": "Deca",
+        "qtd": 1
+      },
+      {
+        "ambiente": "WC SUITE 1",
+        "item": "Chuveiro",
+        "material": "Chuveiro Acqua Plus",
+        "marca": "Deca",
+        "qtd": 1
+      },
+      {
+        "ambiente": "WC SUITE 2",
+        "item": "Chuveiro",
+        "material": "Chuveiro Acqua Plus",
+        "marca": "Deca",
+        "qtd": 1
+      },
+      {
+        "ambiente": "WC SUITE MASTER",
+        "item": "Chuveiro",
+        "material": "Chuveiro Acqua Plus",
+        "marca": "Deca",
+        "qtd": 2
+      },
+      {
+        "ambiente": "WC Estar",
+        "item": "Chuveiro",
+        "material": "Chuveiro Acqua Plus",
+        "marca": "Deca",
+        "qtd": 1
+      },
+      {
+        "ambiente": "WC",
+        "item": "Misturador",
+        "material": "Misturador Monocomando",
+        "marca": "Deca",
+        "qtd": 2
+      },
+      {
+        "ambiente": "WC SUITE 1",
+        "item": "Misturador",
+        "material": "Misturador Monocomando",
+        "marca": "Deca",
+        "qtd": 2
+      },
+      {
+        "ambiente": "WC SUITE 2",
+        "item": "Misturador",
+        "material": "Misturador Monocomando",
+        "marca": "Deca",
+        "qtd": 2
+      },
+      {
+        "ambiente": "WC SUITE MASTER",
+        "item": "Misturador",
+        "material": "Misturador Monocomando",
+        "marca": "Deca",
+        "qtd": 4
+      },
+      {
+        "ambiente": "Lavabo",
+        "item": "Misturador",
+        "material": "Misturador Monocomando",
+        "marca": "Deca",
+        "qtd": 1
+      },
+      {
+        "ambiente": "Lavanderia",
+        "item": "Torneira",
+        "material": "Torneira Simples",
+        "marca": "Deca",
+        "qtd": 1
+      },
+      {
+        "ambiente": "Cozinha",
+        "item": "Misturador",
+        "material": "Misturador Gourmet",
+        "marca": "Deca",
+        "qtd": 1
+      },
+      {
+        "ambiente": "WC Estar",
+        "item": "Misturador",
+        "material": "Misturador Monocomando",
+        "marca": "Deca",
+        "qtd": 2
+      }
+    ]
+  },
+  "telhado": {
+    "itens": [
+      {
+        "categoria": "Telhas",
+        "material": "Telha fibrocimento",
+        "unidade": "un",
+        "quantidade": 200
+      },
+      {
+        "categoria": "Telhas",
+        "material": "Cumeeira",
+        "unidade": "un",
+        "quantidade": 40
+      },
+      {
+        "categoria": "Telhas",
+        "material": "Parafusos/vedação",
+        "unidade": "un",
+        "quantidade": 1100
+      },
+      {
+        "categoria": "Drenagem",
+        "material": "Rufos",
+        "unidade": "m",
+        "quantidade": 80
+      },
+      {
+        "categoria": "Drenagem",
+        "material": "Calhas",
+        "unidade": "m",
+        "quantidade": 50
+      },
+      {
+        "categoria": "Drenagem",
+        "material": "Condutores",
+        "unidade": "m",
+        "quantidade": 24
+      },
+      {
+        "categoria": "Madeira",
+        "material": "Caibros 5x6",
+        "unidade": "m",
+        "quantidade": 1200
+      },
+      {
+        "categoria": "Madeira",
+        "material": "Terças 5x10",
+        "unidade": "m",
+        "quantidade": 380
+      },
+      {
+        "categoria": "Madeira",
+        "material": "Vigas 6x12/16",
+        "unidade": "m",
+        "quantidade": 140
+      },
+      {
+        "categoria": "Complementos",
+        "material": "Fixações diversas",
+        "unidade": "vb",
+        "quantidade": 1
+      },
+      {
+        "categoria": "Complementos",
+        "material": "Cantoneiras/chapas",
+        "unidade": "vb",
+        "quantidade": 1
+      }
+    ]
+  },
+  "formas": {
+    "parametros": {
+      "cobertura_tabua_pinus_m2": 0.9,
+      "cobertura_tabua_mista_m2": 0.8,
+      "espacamento_gravata_m": 0.4,
+      "espacamento_escora_viga_m": 0.4,
+      "espacamento_escora_laje_m": 0.6,
+      "fracao_area_lateral": 0.6666666666666666,
+      "fracao_area_fundo": 0.3333333333333333,
+      "perda_sarrafo": 0.15,
+      "escoras_lajes_qtd": 1800
+    }
+  }
+}
