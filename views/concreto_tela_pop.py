@@ -18,7 +18,8 @@ dados = data_store.carregar()
 aba_vigas, aba_fundacao = st.tabs(["Vigas e Pilares (TQS)", "Fundação (Estacas e Blocos Baldrame)"])
 
 with aba_vigas:
-    if not dados.get("lst_dados", {}).get("vigas"):
+    vigas_ativas = data_store.vigas_ativas(dados)
+    if not vigas_ativas:
         st.info("Nenhum .LST processado ainda — envie os arquivos na página **Inputs Gerais**.")
     else:
         df, totais = concreto_tela_pop.calcular(dados)
@@ -27,13 +28,13 @@ with aba_vigas:
         col2.metric("Custo total", moeda(totais["custo_total"]))
         st.dataframe(df, use_container_width=True)
 
-        if any(v.get("secao_variavel") for v in dados["lst_dados"]["vigas"]):
+        if any(v.get("secao_variavel") for v in vigas_ativas):
             st.warning(
                 "Algumas vigas têm seção variável ao longo do comprimento — o "
                 "cálculo usou a menor seção encontrada. Revise manualmente."
             )
 
-        df_pilares = dados["lst_dados"]["pilares"]
+        df_pilares = data_store.pilares_ativas(dados)
         if df_pilares:
             st.subheader("Pilares — quantitativos extraídos do TQS (área/volume)")
             st.dataframe(df_pilares, use_container_width=True)

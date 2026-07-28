@@ -105,11 +105,7 @@ def _seed() -> dict:
             {"segmento": "TELHADO", "material": "Fixações diversas", "unidade": "vb", "valor": 1200.0},
             {"segmento": "TELHADO", "material": "Cantoneiras/chapas", "unidade": "vb", "valor": 800.0},
         ],
-        "lst_dados": {
-            "vigas": [],
-            "pilares": [],
-            "arquivos": [],
-        },
+        "fontes_estruturais": [],
         "fundacao": {
             "estacas": [
                 {"tipo": "FIXO Ø0,50m", "qtd": 11, "profundidade_m": 8.4, "diametro_m": 0.5, "fck_mpa": 25},
@@ -297,9 +293,60 @@ def carregar() -> dict:
         if chave not in dados:
             dados[chave] = valor
             alterado = True
+
+    if "fontes_estruturais" not in dados or not dados["fontes_estruturais"]:
+        if _migrar_lst_dados_antigo(dados):
+            alterado = True
+
     if alterado:
         salvar(dados)
     return dados
+
+
+def _migrar_lst_dados_antigo(dados: dict) -> bool:
+    """Converte o antigo blob único `lst_dados` (vigas/pilares de todos os
+    arquivos misturados) para uma fonte por pavimento em `fontes_estruturais`,
+    agrupando pelo campo `pavimento` que cada item já carrega. Não perde os
+    dados já processados em versões anteriores do app."""
+    antigo = dados.pop("lst_dados", None)
+    if not antigo or not (antigo.get("vigas") or antigo.get("pilares")):
+        return False
+
+    pavimentos = {}
+    for v in antigo.get("vigas", []):
+        pavimentos.setdefault(v["pavimento"], {"vigas": [], "pilares": []})["vigas"].append(v)
+    for p in antigo.get("pilares", []):
+        pavimentos.setdefault(p["pavimento"], {"vigas": [], "pilares": []})["pilares"].append(p)
+
+    dados["fontes_estruturais"] = [
+        {
+            "arquivo": f"{pavimento}.LST",
+            "pavimento": pavimento,
+            "ativo": True,
+            "vigas": conteudo["vigas"],
+            "pilares": conteudo["pilares"],
+        }
+        for pavimento, conteudo in pavimentos.items()
+    ]
+    return True
+
+
+def vigas_ativas(dados: dict) -> list:
+    """Concatena as vigas de toda fonte estrutural com `ativo=True`."""
+    vigas = []
+    for fonte in dados.get("fontes_estruturais", []):
+        if fonte.get("ativo", True):
+            vigas.extend(fonte.get("vigas", []))
+    return vigas
+
+
+def pilares_ativas(dados: dict) -> list:
+    """Concatena os pilares de toda fonte estrutural com `ativo=True`."""
+    pilares = []
+    for fonte in dados.get("fontes_estruturais", []):
+        if fonte.get("ativo", True):
+            pilares.extend(fonte.get("pilares", []))
+    return pilares
 
 
 def salvar(dados: dict) -> None:

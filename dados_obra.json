@@ -377,977 +377,6 @@
       "valor": 800.0
     }
   ],
-  "lst_dados": {
-    "vigas": [
-      {
-        "pavimento": "TERREO",
-        "viga": "V401",
-        "comprimento_total_m": 6.123,
-        "largura_m": 0.19,
-        "altura_m": 0.5,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V402",
-        "comprimento_total_m": 7.711,
-        "largura_m": 0.19,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V403",
-        "comprimento_total_m": 4.453,
-        "largura_m": 0.3,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V404",
-        "comprimento_total_m": 3.258,
-        "largura_m": 0.14,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V405",
-        "comprimento_total_m": 3.511,
-        "largura_m": 0.14,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V406",
-        "comprimento_total_m": 1.574,
-        "largura_m": 0.14,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V407",
-        "comprimento_total_m": 5.24,
-        "largura_m": 0.3,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V408",
-        "comprimento_total_m": 3.773,
-        "largura_m": 0.14,
-        "altura_m": 0.5,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V409",
-        "comprimento_total_m": 11.529,
-        "largura_m": 0.14,
-        "altura_m": 0.4,
-        "secao_variavel": true
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V410",
-        "comprimento_total_m": 4.26,
-        "largura_m": 0.14,
-        "altura_m": 0.5,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V411",
-        "comprimento_total_m": 11.209,
-        "largura_m": 0.14,
-        "altura_m": 0.5,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V412",
-        "comprimento_total_m": 3.744,
-        "largura_m": 0.14,
-        "altura_m": 0.5,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V413",
-        "comprimento_total_m": 0.82,
-        "largura_m": 0.14,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V414",
-        "comprimento_total_m": 2.312,
-        "largura_m": 0.14,
-        "altura_m": 0.5,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V415",
-        "comprimento_total_m": 4.189,
-        "largura_m": 0.19,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V416",
-        "comprimento_total_m": 9.021,
-        "largura_m": 0.14,
-        "altura_m": 0.4,
-        "secao_variavel": true
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V801",
-        "comprimento_total_m": 1.467,
-        "largura_m": 0.12,
-        "altura_m": 0.5,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V802",
-        "comprimento_total_m": 1.467,
-        "largura_m": 0.12,
-        "altura_m": 0.5,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "TERREO",
-        "viga": "V803",
-        "comprimento_total_m": 1.467,
-        "largura_m": 0.12,
-        "altura_m": 0.5,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "COBERTURA",
-        "viga": "V501",
-        "comprimento_total_m": 6.203,
-        "largura_m": 0.14,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "COBERTURA",
-        "viga": "V502",
-        "comprimento_total_m": 7.711,
-        "largura_m": 0.14,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "COBERTURA",
-        "viga": "V503",
-        "comprimento_total_m": 7.711,
-        "largura_m": 0.14,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "COBERTURA",
-        "viga": "V504",
-        "comprimento_total_m": 3.511,
-        "largura_m": 0.14,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "COBERTURA",
-        "viga": "V505",
-        "comprimento_total_m": 7.536,
-        "largura_m": 0.14,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "COBERTURA",
-        "viga": "V506",
-        "comprimento_total_m": 7.935,
-        "largura_m": 0.14,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "COBERTURA",
-        "viga": "V507",
-        "comprimento_total_m": 4.235,
-        "largura_m": 0.14,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "COBERTURA",
-        "viga": "V508",
-        "comprimento_total_m": 11.209,
-        "largura_m": 0.14,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "COBERTURA",
-        "viga": "V509",
-        "comprimento_total_m": 0.82,
-        "largura_m": 0.14,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "COBERTURA",
-        "viga": "V510",
-        "comprimento_total_m": 12.205,
-        "largura_m": 0.14,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V101",
-        "comprimento_total_m": 9.842,
-        "largura_m": 0.5,
-        "altura_m": 0.3,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V102",
-        "comprimento_total_m": 1.6,
-        "largura_m": 0.19,
-        "altura_m": 0.3,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V103",
-        "comprimento_total_m": 4.8,
-        "largura_m": 0.19,
-        "altura_m": 0.3,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V104",
-        "comprimento_total_m": 1.755,
-        "largura_m": 0.19,
-        "altura_m": 0.3,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V105",
-        "comprimento_total_m": 2.355,
-        "largura_m": 0.19,
-        "altura_m": 0.3,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V106",
-        "comprimento_total_m": 2.355,
-        "largura_m": 0.19,
-        "altura_m": 0.3,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V201",
-        "comprimento_total_m": 9.692,
-        "largura_m": 0.2,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V202",
-        "comprimento_total_m": 1.75,
-        "largura_m": 0.2,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V203",
-        "comprimento_total_m": 7.381,
-        "largura_m": 0.2,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V204",
-        "comprimento_total_m": 3.228,
-        "largura_m": 0.2,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V205",
-        "comprimento_total_m": 4.453,
-        "largura_m": 0.2,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V206",
-        "comprimento_total_m": 2.928,
-        "largura_m": 0.2,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V207",
-        "comprimento_total_m": 3.231,
-        "largura_m": 0.2,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V208",
-        "comprimento_total_m": 6.001,
-        "largura_m": 0.2,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V209",
-        "comprimento_total_m": 6.885,
-        "largura_m": 0.2,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V210",
-        "comprimento_total_m": 4.265,
-        "largura_m": 0.2,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V211",
-        "comprimento_total_m": 7.506,
-        "largura_m": 0.2,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V212",
-        "comprimento_total_m": 0.82,
-        "largura_m": 0.2,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V213",
-        "comprimento_total_m": 1.47,
-        "largura_m": 0.28,
-        "altura_m": 0.6,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V215",
-        "comprimento_total_m": 12.134,
-        "largura_m": 0.2,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V216",
-        "comprimento_total_m": 2.998,
-        "largura_m": 0.25,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V301",
-        "comprimento_total_m": 4.546,
-        "largura_m": 0.25,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V302",
-        "comprimento_total_m": 9.225,
-        "largura_m": 0.25,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V303",
-        "comprimento_total_m": 17.701,
-        "largura_m": 0.25,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V304",
-        "comprimento_total_m": 5.01,
-        "largura_m": 0.2,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V305",
-        "comprimento_total_m": 9.692,
-        "largura_m": 0.2,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V306",
-        "comprimento_total_m": 3.666,
-        "largura_m": 0.25,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V307",
-        "comprimento_total_m": 3.702,
-        "largura_m": 0.3,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "RESPALDO",
-        "viga": "V308",
-        "comprimento_total_m": 2.948,
-        "largura_m": 0.3,
-        "altura_m": 0.4,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "CX DAGUA",
-        "viga": "V601",
-        "comprimento_total_m": 3.258,
-        "largura_m": 0.14,
-        "altura_m": 0.3,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "CX DAGUA",
-        "viga": "V602",
-        "comprimento_total_m": 3.258,
-        "largura_m": 0.14,
-        "altura_m": 0.3,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "CX DAGUA",
-        "viga": "V603",
-        "comprimento_total_m": 3.893,
-        "largura_m": 0.14,
-        "altura_m": 0.3,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "CX DAGUA",
-        "viga": "V604",
-        "comprimento_total_m": 3.693,
-        "largura_m": 0.14,
-        "altura_m": 0.3,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "FUNDO PISCINA",
-        "viga": "V1",
-        "comprimento_total_m": 6.4,
-        "largura_m": 0.19,
-        "altura_m": 0.5,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "FUNDO PISCINA",
-        "viga": "V2",
-        "comprimento_total_m": 1.6,
-        "largura_m": 0.19,
-        "altura_m": 0.5,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "FUNDO PISCINA",
-        "viga": "V3",
-        "comprimento_total_m": 4.8,
-        "largura_m": 0.19,
-        "altura_m": 0.5,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "FUNDO PISCINA",
-        "viga": "V4",
-        "comprimento_total_m": 1.755,
-        "largura_m": 0.19,
-        "altura_m": 0.5,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "FUNDO PISCINA",
-        "viga": "V5",
-        "comprimento_total_m": 2.355,
-        "largura_m": 0.19,
-        "altura_m": 0.5,
-        "secao_variavel": false
-      },
-      {
-        "pavimento": "FUNDO PISCINA",
-        "viga": "V6",
-        "comprimento_total_m": 2.355,
-        "largura_m": 0.19,
-        "altura_m": 0.5,
-        "secao_variavel": false
-      }
-    ],
-    "pilares": [
-      {
-        "pavimento": "TERREO",
-        "pilar": "P1",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.19,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "TERREO",
-        "pilar": "P2",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.19,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "TERREO",
-        "pilar": "P3",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.19,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "TERREO",
-        "pilar": "P4",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.19,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "TERREO",
-        "pilar": "P5",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.19,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "TERREO",
-        "pilar": "P6",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.19,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "TERREO",
-        "pilar": "P7",
-        "area_estruturada_m2": 0.08,
-        "area_formas_m2": 4.27,
-        "volume_concreto_m3": 0.28,
-        "volume_topo_m3": 0.04,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "TERREO",
-        "pilar": "P8",
-        "area_estruturada_m2": 0.06,
-        "area_formas_m2": 3.91,
-        "volume_concreto_m3": 0.2,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "TERREO",
-        "pilar": "P9",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.19,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "TERREO",
-        "pilar": "P10",
-        "area_estruturada_m2": 0.06,
-        "area_formas_m2": 4.27,
-        "volume_concreto_m3": 0.23,
-        "volume_topo_m3": 0.03,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "TERREO",
-        "pilar": "P11",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.19,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "TERREO",
-        "pilar": "P12",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.19,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.03,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "TERREO",
-        "pilar": "P13",
-        "area_estruturada_m2": 0.09,
-        "area_formas_m2": 5.79,
-        "volume_concreto_m3": 0.33,
-        "volume_topo_m3": 0.05,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "TERREO",
-        "pilar": "P14",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.19,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.03,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "TERREO",
-        "pilar": "P15",
-        "area_estruturada_m2": 0.07,
-        "area_formas_m2": 4.63,
-        "volume_concreto_m3": 0.25,
-        "volume_topo_m3": 0.04,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "TERREO",
-        "pilar": "P16",
-        "area_estruturada_m2": 0.09,
-        "area_formas_m2": 4.92,
-        "volume_concreto_m3": 0.34,
-        "volume_topo_m3": 0.0,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "TERREO",
-        "pilar": "P17",
-        "area_estruturada_m2": 0.07,
-        "area_formas_m2": 3.39,
-        "volume_concreto_m3": 0.25,
-        "volume_topo_m3": 0.03,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "TERREO",
-        "pilar": "P18",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.19,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.62"
-      },
-      {
-        "pavimento": "COBERTURA",
-        "pilar": "P3",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.04,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.46"
-      },
-      {
-        "pavimento": "COBERTURA",
-        "pilar": "P4",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.04,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.46"
-      },
-      {
-        "pavimento": "COBERTURA",
-        "pilar": "P5",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.04,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.46"
-      },
-      {
-        "pavimento": "COBERTURA",
-        "pilar": "P6",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.04,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.46"
-      },
-      {
-        "pavimento": "COBERTURA",
-        "pilar": "P7",
-        "area_estruturada_m2": 0.08,
-        "area_formas_m2": 4.08,
-        "volume_concreto_m3": 0.26,
-        "volume_topo_m3": 0.03,
-        "pe_direito_ref_m": "3.46"
-      },
-      {
-        "pavimento": "COBERTURA",
-        "pilar": "P8",
-        "area_estruturada_m2": 0.06,
-        "area_formas_m2": 3.74,
-        "volume_concreto_m3": 0.19,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.46"
-      },
-      {
-        "pavimento": "COBERTURA",
-        "pilar": "P9",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.04,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.46"
-      },
-      {
-        "pavimento": "COBERTURA",
-        "pilar": "P11",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.04,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.46"
-      },
-      {
-        "pavimento": "COBERTURA",
-        "pilar": "P12",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.04,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.46"
-      },
-      {
-        "pavimento": "COBERTURA",
-        "pilar": "P13",
-        "area_estruturada_m2": 0.09,
-        "area_formas_m2": 5.54,
-        "volume_concreto_m3": 0.32,
-        "volume_topo_m3": 0.04,
-        "pe_direito_ref_m": "3.46"
-      },
-      {
-        "pavimento": "COBERTURA",
-        "pilar": "P14",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.04,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.46"
-      },
-      {
-        "pavimento": "COBERTURA",
-        "pilar": "P15",
-        "area_estruturada_m2": 0.07,
-        "area_formas_m2": 4.43,
-        "volume_concreto_m3": 0.24,
-        "volume_topo_m3": 0.03,
-        "pe_direito_ref_m": "3.46"
-      },
-      {
-        "pavimento": "COBERTURA",
-        "pilar": "P16",
-        "area_estruturada_m2": 0.09,
-        "area_formas_m2": 4.71,
-        "volume_concreto_m3": 0.32,
-        "volume_topo_m3": 0.04,
-        "pe_direito_ref_m": "3.46"
-      },
-      {
-        "pavimento": "COBERTURA",
-        "pilar": "P101",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.04,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.46"
-      },
-      {
-        "pavimento": "COBERTURA",
-        "pilar": "P102",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.04,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.46"
-      },
-      {
-        "pavimento": "COBERTURA",
-        "pilar": "P103",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 3.04,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": "3.46"
-      },
-      {
-        "pavimento": "RESPALDO",
-        "pilar": "PP1",
-        "area_estruturada_m2": 0.1,
-        "area_formas_m2": 1.93,
-        "volume_concreto_m3": 0.13,
-        "volume_topo_m3": 0.03,
-        "pe_direito_ref_m": "1.4"
-      },
-      {
-        "pavimento": "RESPALDO",
-        "pilar": "PP2",
-        "area_estruturada_m2": 0.1,
-        "area_formas_m2": 1.93,
-        "volume_concreto_m3": 0.13,
-        "volume_topo_m3": 0.03,
-        "pe_direito_ref_m": "1.4"
-      },
-      {
-        "pavimento": "RESPALDO",
-        "pilar": "PP3",
-        "area_estruturada_m2": 0.1,
-        "area_formas_m2": 1.93,
-        "volume_concreto_m3": 0.13,
-        "volume_topo_m3": 0.03,
-        "pe_direito_ref_m": "1.4"
-      },
-      {
-        "pavimento": "RESPALDO",
-        "pilar": "PP4",
-        "area_estruturada_m2": 0.1,
-        "area_formas_m2": 1.93,
-        "volume_concreto_m3": 0.13,
-        "volume_topo_m3": 0.03,
-        "pe_direito_ref_m": "1.4"
-      },
-      {
-        "pavimento": "RESPALDO",
-        "pilar": "PP5",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 1.06,
-        "volume_concreto_m3": 0.05,
-        "volume_topo_m3": 0.01,
-        "pe_direito_ref_m": "1.4"
-      },
-      {
-        "pavimento": "RESPALDO",
-        "pilar": "PP6",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 1.06,
-        "volume_concreto_m3": 0.05,
-        "volume_topo_m3": 0.01,
-        "pe_direito_ref_m": "1.4"
-      },
-      {
-        "pavimento": "RESPALDO",
-        "pilar": "PP7",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 1.06,
-        "volume_concreto_m3": 0.05,
-        "volume_topo_m3": 0.01,
-        "pe_direito_ref_m": "1.4"
-      },
-      {
-        "pavimento": "RESPALDO",
-        "pilar": "PP8",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 1.06,
-        "volume_concreto_m3": 0.05,
-        "volume_topo_m3": 0.01,
-        "pe_direito_ref_m": "1.4"
-      },
-      {
-        "pavimento": "CX DAGUA",
-        "pilar": "P6",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 1.76,
-        "volume_concreto_m3": 0.08,
-        "volume_topo_m3": 0.01,
-        "pe_direito_ref_m": ""
-      },
-      {
-        "pavimento": "CX DAGUA",
-        "pilar": "P7",
-        "area_estruturada_m2": 0.08,
-        "area_formas_m2": 2.36,
-        "volume_concreto_m3": 0.15,
-        "volume_topo_m3": 0.02,
-        "pe_direito_ref_m": ""
-      },
-      {
-        "pavimento": "CX DAGUA",
-        "pilar": "P9",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 1.76,
-        "volume_concreto_m3": 0.08,
-        "volume_topo_m3": 0.01,
-        "pe_direito_ref_m": ""
-      },
-      {
-        "pavimento": "CX DAGUA",
-        "pilar": "P103",
-        "area_estruturada_m2": 0.04,
-        "area_formas_m2": 1.76,
-        "volume_concreto_m3": 0.08,
-        "volume_topo_m3": 0.01,
-        "pe_direito_ref_m": ""
-      }
-    ],
-    "arquivos": [
-      "TERREO",
-      "COBERTURA",
-      "RESPALDO",
-      "CX DAGUA",
-      "FUNDO PISCINA"
-    ]
-  },
   "fundacao": {
     "estacas": [
       {
@@ -2423,5 +1452,1009 @@
       "perda_sarrafo": 0.15,
       "escoras_lajes_qtd": 1800
     }
-  }
+  },
+  "fontes_estruturais": [
+    {
+      "arquivo": "TERREO.LST",
+      "pavimento": "TERREO",
+      "ativo": true,
+      "vigas": [
+        {
+          "pavimento": "TERREO",
+          "viga": "V401",
+          "comprimento_total_m": 6.123,
+          "largura_m": 0.19,
+          "altura_m": 0.5,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V402",
+          "comprimento_total_m": 7.711,
+          "largura_m": 0.19,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V403",
+          "comprimento_total_m": 4.453,
+          "largura_m": 0.3,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V404",
+          "comprimento_total_m": 3.258,
+          "largura_m": 0.14,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V405",
+          "comprimento_total_m": 3.511,
+          "largura_m": 0.14,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V406",
+          "comprimento_total_m": 1.574,
+          "largura_m": 0.14,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V407",
+          "comprimento_total_m": 5.24,
+          "largura_m": 0.3,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V408",
+          "comprimento_total_m": 3.773,
+          "largura_m": 0.14,
+          "altura_m": 0.5,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V409",
+          "comprimento_total_m": 11.529,
+          "largura_m": 0.14,
+          "altura_m": 0.4,
+          "secao_variavel": true
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V410",
+          "comprimento_total_m": 4.26,
+          "largura_m": 0.14,
+          "altura_m": 0.5,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V411",
+          "comprimento_total_m": 11.209,
+          "largura_m": 0.14,
+          "altura_m": 0.5,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V412",
+          "comprimento_total_m": 3.744,
+          "largura_m": 0.14,
+          "altura_m": 0.5,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V413",
+          "comprimento_total_m": 0.82,
+          "largura_m": 0.14,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V414",
+          "comprimento_total_m": 2.312,
+          "largura_m": 0.14,
+          "altura_m": 0.5,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V415",
+          "comprimento_total_m": 4.189,
+          "largura_m": 0.19,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V416",
+          "comprimento_total_m": 9.021,
+          "largura_m": 0.14,
+          "altura_m": 0.4,
+          "secao_variavel": true
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V801",
+          "comprimento_total_m": 1.467,
+          "largura_m": 0.12,
+          "altura_m": 0.5,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V802",
+          "comprimento_total_m": 1.467,
+          "largura_m": 0.12,
+          "altura_m": 0.5,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "TERREO",
+          "viga": "V803",
+          "comprimento_total_m": 1.467,
+          "largura_m": 0.12,
+          "altura_m": 0.5,
+          "secao_variavel": false
+        }
+      ],
+      "pilares": [
+        {
+          "pavimento": "TERREO",
+          "pilar": "P1",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.19,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.62"
+        },
+        {
+          "pavimento": "TERREO",
+          "pilar": "P2",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.19,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.62"
+        },
+        {
+          "pavimento": "TERREO",
+          "pilar": "P3",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.19,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.62"
+        },
+        {
+          "pavimento": "TERREO",
+          "pilar": "P4",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.19,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.62"
+        },
+        {
+          "pavimento": "TERREO",
+          "pilar": "P5",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.19,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.62"
+        },
+        {
+          "pavimento": "TERREO",
+          "pilar": "P6",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.19,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.62"
+        },
+        {
+          "pavimento": "TERREO",
+          "pilar": "P7",
+          "area_estruturada_m2": 0.08,
+          "area_formas_m2": 4.27,
+          "volume_concreto_m3": 0.28,
+          "volume_topo_m3": 0.04,
+          "pe_direito_ref_m": "3.62"
+        },
+        {
+          "pavimento": "TERREO",
+          "pilar": "P8",
+          "area_estruturada_m2": 0.06,
+          "area_formas_m2": 3.91,
+          "volume_concreto_m3": 0.2,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.62"
+        },
+        {
+          "pavimento": "TERREO",
+          "pilar": "P9",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.19,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.62"
+        },
+        {
+          "pavimento": "TERREO",
+          "pilar": "P10",
+          "area_estruturada_m2": 0.06,
+          "area_formas_m2": 4.27,
+          "volume_concreto_m3": 0.23,
+          "volume_topo_m3": 0.03,
+          "pe_direito_ref_m": "3.62"
+        },
+        {
+          "pavimento": "TERREO",
+          "pilar": "P11",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.19,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.62"
+        },
+        {
+          "pavimento": "TERREO",
+          "pilar": "P12",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.19,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.03,
+          "pe_direito_ref_m": "3.62"
+        },
+        {
+          "pavimento": "TERREO",
+          "pilar": "P13",
+          "area_estruturada_m2": 0.09,
+          "area_formas_m2": 5.79,
+          "volume_concreto_m3": 0.33,
+          "volume_topo_m3": 0.05,
+          "pe_direito_ref_m": "3.62"
+        },
+        {
+          "pavimento": "TERREO",
+          "pilar": "P14",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.19,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.03,
+          "pe_direito_ref_m": "3.62"
+        },
+        {
+          "pavimento": "TERREO",
+          "pilar": "P15",
+          "area_estruturada_m2": 0.07,
+          "area_formas_m2": 4.63,
+          "volume_concreto_m3": 0.25,
+          "volume_topo_m3": 0.04,
+          "pe_direito_ref_m": "3.62"
+        },
+        {
+          "pavimento": "TERREO",
+          "pilar": "P16",
+          "area_estruturada_m2": 0.09,
+          "area_formas_m2": 4.92,
+          "volume_concreto_m3": 0.34,
+          "volume_topo_m3": 0.0,
+          "pe_direito_ref_m": "3.62"
+        },
+        {
+          "pavimento": "TERREO",
+          "pilar": "P17",
+          "area_estruturada_m2": 0.07,
+          "area_formas_m2": 3.39,
+          "volume_concreto_m3": 0.25,
+          "volume_topo_m3": 0.03,
+          "pe_direito_ref_m": "3.62"
+        },
+        {
+          "pavimento": "TERREO",
+          "pilar": "P18",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.19,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.62"
+        }
+      ]
+    },
+    {
+      "arquivo": "COBERTURA.LST",
+      "pavimento": "COBERTURA",
+      "ativo": true,
+      "vigas": [
+        {
+          "pavimento": "COBERTURA",
+          "viga": "V501",
+          "comprimento_total_m": 6.203,
+          "largura_m": 0.14,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "COBERTURA",
+          "viga": "V502",
+          "comprimento_total_m": 7.711,
+          "largura_m": 0.14,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "COBERTURA",
+          "viga": "V503",
+          "comprimento_total_m": 7.711,
+          "largura_m": 0.14,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "COBERTURA",
+          "viga": "V504",
+          "comprimento_total_m": 3.511,
+          "largura_m": 0.14,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "COBERTURA",
+          "viga": "V505",
+          "comprimento_total_m": 7.536,
+          "largura_m": 0.14,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "COBERTURA",
+          "viga": "V506",
+          "comprimento_total_m": 7.935,
+          "largura_m": 0.14,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "COBERTURA",
+          "viga": "V507",
+          "comprimento_total_m": 4.235,
+          "largura_m": 0.14,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "COBERTURA",
+          "viga": "V508",
+          "comprimento_total_m": 11.209,
+          "largura_m": 0.14,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "COBERTURA",
+          "viga": "V509",
+          "comprimento_total_m": 0.82,
+          "largura_m": 0.14,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "COBERTURA",
+          "viga": "V510",
+          "comprimento_total_m": 12.205,
+          "largura_m": 0.14,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        }
+      ],
+      "pilares": [
+        {
+          "pavimento": "COBERTURA",
+          "pilar": "P3",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.04,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.46"
+        },
+        {
+          "pavimento": "COBERTURA",
+          "pilar": "P4",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.04,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.46"
+        },
+        {
+          "pavimento": "COBERTURA",
+          "pilar": "P5",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.04,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.46"
+        },
+        {
+          "pavimento": "COBERTURA",
+          "pilar": "P6",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.04,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.46"
+        },
+        {
+          "pavimento": "COBERTURA",
+          "pilar": "P7",
+          "area_estruturada_m2": 0.08,
+          "area_formas_m2": 4.08,
+          "volume_concreto_m3": 0.26,
+          "volume_topo_m3": 0.03,
+          "pe_direito_ref_m": "3.46"
+        },
+        {
+          "pavimento": "COBERTURA",
+          "pilar": "P8",
+          "area_estruturada_m2": 0.06,
+          "area_formas_m2": 3.74,
+          "volume_concreto_m3": 0.19,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.46"
+        },
+        {
+          "pavimento": "COBERTURA",
+          "pilar": "P9",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.04,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.46"
+        },
+        {
+          "pavimento": "COBERTURA",
+          "pilar": "P11",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.04,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.46"
+        },
+        {
+          "pavimento": "COBERTURA",
+          "pilar": "P12",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.04,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.46"
+        },
+        {
+          "pavimento": "COBERTURA",
+          "pilar": "P13",
+          "area_estruturada_m2": 0.09,
+          "area_formas_m2": 5.54,
+          "volume_concreto_m3": 0.32,
+          "volume_topo_m3": 0.04,
+          "pe_direito_ref_m": "3.46"
+        },
+        {
+          "pavimento": "COBERTURA",
+          "pilar": "P14",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.04,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.46"
+        },
+        {
+          "pavimento": "COBERTURA",
+          "pilar": "P15",
+          "area_estruturada_m2": 0.07,
+          "area_formas_m2": 4.43,
+          "volume_concreto_m3": 0.24,
+          "volume_topo_m3": 0.03,
+          "pe_direito_ref_m": "3.46"
+        },
+        {
+          "pavimento": "COBERTURA",
+          "pilar": "P16",
+          "area_estruturada_m2": 0.09,
+          "area_formas_m2": 4.71,
+          "volume_concreto_m3": 0.32,
+          "volume_topo_m3": 0.04,
+          "pe_direito_ref_m": "3.46"
+        },
+        {
+          "pavimento": "COBERTURA",
+          "pilar": "P101",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.04,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.46"
+        },
+        {
+          "pavimento": "COBERTURA",
+          "pilar": "P102",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.04,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.46"
+        },
+        {
+          "pavimento": "COBERTURA",
+          "pilar": "P103",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 3.04,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": "3.46"
+        }
+      ]
+    },
+    {
+      "arquivo": "RESPALDO.LST",
+      "pavimento": "RESPALDO",
+      "ativo": true,
+      "vigas": [
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V101",
+          "comprimento_total_m": 9.842,
+          "largura_m": 0.5,
+          "altura_m": 0.3,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V102",
+          "comprimento_total_m": 1.6,
+          "largura_m": 0.19,
+          "altura_m": 0.3,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V103",
+          "comprimento_total_m": 4.8,
+          "largura_m": 0.19,
+          "altura_m": 0.3,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V104",
+          "comprimento_total_m": 1.755,
+          "largura_m": 0.19,
+          "altura_m": 0.3,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V105",
+          "comprimento_total_m": 2.355,
+          "largura_m": 0.19,
+          "altura_m": 0.3,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V106",
+          "comprimento_total_m": 2.355,
+          "largura_m": 0.19,
+          "altura_m": 0.3,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V201",
+          "comprimento_total_m": 9.692,
+          "largura_m": 0.2,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V202",
+          "comprimento_total_m": 1.75,
+          "largura_m": 0.2,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V203",
+          "comprimento_total_m": 7.381,
+          "largura_m": 0.2,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V204",
+          "comprimento_total_m": 3.228,
+          "largura_m": 0.2,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V205",
+          "comprimento_total_m": 4.453,
+          "largura_m": 0.2,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V206",
+          "comprimento_total_m": 2.928,
+          "largura_m": 0.2,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V207",
+          "comprimento_total_m": 3.231,
+          "largura_m": 0.2,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V208",
+          "comprimento_total_m": 6.001,
+          "largura_m": 0.2,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V209",
+          "comprimento_total_m": 6.885,
+          "largura_m": 0.2,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V210",
+          "comprimento_total_m": 4.265,
+          "largura_m": 0.2,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V211",
+          "comprimento_total_m": 7.506,
+          "largura_m": 0.2,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V212",
+          "comprimento_total_m": 0.82,
+          "largura_m": 0.2,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V213",
+          "comprimento_total_m": 1.47,
+          "largura_m": 0.28,
+          "altura_m": 0.6,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V215",
+          "comprimento_total_m": 12.134,
+          "largura_m": 0.2,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V216",
+          "comprimento_total_m": 2.998,
+          "largura_m": 0.25,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V301",
+          "comprimento_total_m": 4.546,
+          "largura_m": 0.25,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V302",
+          "comprimento_total_m": 9.225,
+          "largura_m": 0.25,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V303",
+          "comprimento_total_m": 17.701,
+          "largura_m": 0.25,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V304",
+          "comprimento_total_m": 5.01,
+          "largura_m": 0.2,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V305",
+          "comprimento_total_m": 9.692,
+          "largura_m": 0.2,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V306",
+          "comprimento_total_m": 3.666,
+          "largura_m": 0.25,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V307",
+          "comprimento_total_m": 3.702,
+          "largura_m": 0.3,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "RESPALDO",
+          "viga": "V308",
+          "comprimento_total_m": 2.948,
+          "largura_m": 0.3,
+          "altura_m": 0.4,
+          "secao_variavel": false
+        }
+      ],
+      "pilares": [
+        {
+          "pavimento": "RESPALDO",
+          "pilar": "PP1",
+          "area_estruturada_m2": 0.1,
+          "area_formas_m2": 1.93,
+          "volume_concreto_m3": 0.13,
+          "volume_topo_m3": 0.03,
+          "pe_direito_ref_m": "1.4"
+        },
+        {
+          "pavimento": "RESPALDO",
+          "pilar": "PP2",
+          "area_estruturada_m2": 0.1,
+          "area_formas_m2": 1.93,
+          "volume_concreto_m3": 0.13,
+          "volume_topo_m3": 0.03,
+          "pe_direito_ref_m": "1.4"
+        },
+        {
+          "pavimento": "RESPALDO",
+          "pilar": "PP3",
+          "area_estruturada_m2": 0.1,
+          "area_formas_m2": 1.93,
+          "volume_concreto_m3": 0.13,
+          "volume_topo_m3": 0.03,
+          "pe_direito_ref_m": "1.4"
+        },
+        {
+          "pavimento": "RESPALDO",
+          "pilar": "PP4",
+          "area_estruturada_m2": 0.1,
+          "area_formas_m2": 1.93,
+          "volume_concreto_m3": 0.13,
+          "volume_topo_m3": 0.03,
+          "pe_direito_ref_m": "1.4"
+        },
+        {
+          "pavimento": "RESPALDO",
+          "pilar": "PP5",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 1.06,
+          "volume_concreto_m3": 0.05,
+          "volume_topo_m3": 0.01,
+          "pe_direito_ref_m": "1.4"
+        },
+        {
+          "pavimento": "RESPALDO",
+          "pilar": "PP6",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 1.06,
+          "volume_concreto_m3": 0.05,
+          "volume_topo_m3": 0.01,
+          "pe_direito_ref_m": "1.4"
+        },
+        {
+          "pavimento": "RESPALDO",
+          "pilar": "PP7",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 1.06,
+          "volume_concreto_m3": 0.05,
+          "volume_topo_m3": 0.01,
+          "pe_direito_ref_m": "1.4"
+        },
+        {
+          "pavimento": "RESPALDO",
+          "pilar": "PP8",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 1.06,
+          "volume_concreto_m3": 0.05,
+          "volume_topo_m3": 0.01,
+          "pe_direito_ref_m": "1.4"
+        }
+      ]
+    },
+    {
+      "arquivo": "FUNDO PISCINA.LST",
+      "pavimento": "FUNDO PISCINA",
+      "ativo": true,
+      "vigas": [
+        {
+          "pavimento": "FUNDO PISCINA",
+          "viga": "V1",
+          "comprimento_total_m": 6.4,
+          "largura_m": 0.19,
+          "altura_m": 0.5,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "FUNDO PISCINA",
+          "viga": "V2",
+          "comprimento_total_m": 1.6,
+          "largura_m": 0.19,
+          "altura_m": 0.5,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "FUNDO PISCINA",
+          "viga": "V3",
+          "comprimento_total_m": 4.8,
+          "largura_m": 0.19,
+          "altura_m": 0.5,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "FUNDO PISCINA",
+          "viga": "V4",
+          "comprimento_total_m": 1.755,
+          "largura_m": 0.19,
+          "altura_m": 0.5,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "FUNDO PISCINA",
+          "viga": "V5",
+          "comprimento_total_m": 2.355,
+          "largura_m": 0.19,
+          "altura_m": 0.5,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "FUNDO PISCINA",
+          "viga": "V6",
+          "comprimento_total_m": 2.355,
+          "largura_m": 0.19,
+          "altura_m": 0.5,
+          "secao_variavel": false
+        }
+      ],
+      "pilares": []
+    },
+    {
+      "arquivo": "CX DAGUA.LST",
+      "pavimento": "CX DAGUA",
+      "ativo": true,
+      "vigas": [
+        {
+          "pavimento": "CX DAGUA",
+          "viga": "V601",
+          "comprimento_total_m": 3.258,
+          "largura_m": 0.14,
+          "altura_m": 0.3,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "CX DAGUA",
+          "viga": "V602",
+          "comprimento_total_m": 3.258,
+          "largura_m": 0.14,
+          "altura_m": 0.3,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "CX DAGUA",
+          "viga": "V603",
+          "comprimento_total_m": 3.893,
+          "largura_m": 0.14,
+          "altura_m": 0.3,
+          "secao_variavel": false
+        },
+        {
+          "pavimento": "CX DAGUA",
+          "viga": "V604",
+          "comprimento_total_m": 3.693,
+          "largura_m": 0.14,
+          "altura_m": 0.3,
+          "secao_variavel": false
+        }
+      ],
+      "pilares": [
+        {
+          "pavimento": "CX DAGUA",
+          "pilar": "P6",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 1.76,
+          "volume_concreto_m3": 0.08,
+          "volume_topo_m3": 0.01,
+          "pe_direito_ref_m": ""
+        },
+        {
+          "pavimento": "CX DAGUA",
+          "pilar": "P7",
+          "area_estruturada_m2": 0.08,
+          "area_formas_m2": 2.36,
+          "volume_concreto_m3": 0.15,
+          "volume_topo_m3": 0.02,
+          "pe_direito_ref_m": ""
+        },
+        {
+          "pavimento": "CX DAGUA",
+          "pilar": "P9",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 1.76,
+          "volume_concreto_m3": 0.08,
+          "volume_topo_m3": 0.01,
+          "pe_direito_ref_m": ""
+        },
+        {
+          "pavimento": "CX DAGUA",
+          "pilar": "P103",
+          "area_estruturada_m2": 0.04,
+          "area_formas_m2": 1.76,
+          "volume_concreto_m3": 0.08,
+          "volume_topo_m3": 0.01,
+          "pe_direito_ref_m": ""
+        }
+      ]
+    }
+  ]
 }

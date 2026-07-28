@@ -11,6 +11,7 @@ import math
 import pandas as pd
 
 import catalog
+import data_store
 
 NOME = "Formas"
 
@@ -18,7 +19,7 @@ NOME = "Formas"
 def calcular(dados: dict):
     parametros_gerais = dados.get("parametros_gerais", {})
     parametros_formas = dados.get("formas", {}).get("parametros", {})
-    vigas = dados.get("lst_dados", {}).get("vigas", [])
+    vigas = data_store.vigas_ativas(dados)
 
     if vigas:
         comprimento_total = sum(v["comprimento_total_m"] for v in vigas)

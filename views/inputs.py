@@ -24,37 +24,54 @@ dados = data_store.carregar()
 # ---------------------------------------------------------------------
 st.subheader("1. Arquivos .LST do TQS (Vigas e Pilares)")
 
-lst_dados = dados.get("lst_dados", {"vigas": [], "pilares": [], "arquivos": []})
-if lst_dados.get("arquivos"):
-    st.success(
-        f"Já processados: {', '.join(lst_dados['arquivos'])} "
-        f"({len(lst_dados['vigas'])} vigas, {len(lst_dados['pilares'])} pilares)."
-    )
-
 arquivos = st.file_uploader(
     "Arquivos .LST do projeto", type=["lst", "LST"], accept_multiple_files=True, key="lst_uploader"
 )
 
 if arquivos and st.button("Processar arquivos .LST"):
-    todos_vaos = []
-    todos_pilares = []
-    nomes = []
+    fontes = dados.setdefault("fontes_estruturais", [])
     for arquivo in arquivos:
         texto = _ler_texto(arquivo.read())
         pavimento = _nome_pavimento(arquivo.name)
-        todos_vaos.extend(extrair_vigas(texto, pavimento))
-        todos_pilares.extend(extrair_pilares(texto, pavimento))
-        nomes.append(arquivo.name)
+        dimensoes = vigas_para_dimensoes(extrair_vigas(texto, pavimento))
+        pilares = extrair_pilares(texto, pavimento)
 
-    dimensoes = vigas_para_dimensoes(todos_vaos)
-    dados["lst_dados"] = {
-        "vigas": list(dimensoes.values()),
-        "pilares": [p.__dict__ for p in todos_pilares],
-        "arquivos": nomes,
-    }
+        nova_fonte = {
+            "arquivo": arquivo.name,
+            "pavimento": pavimento,
+            "ativo": True,
+            "vigas": list(dimensoes.values()),
+            "pilares": [p.__dict__ for p in pilares],
+        }
+        # Se já existe uma fonte com o mesmo nome de arquivo, substitui em vez de duplicar.
+        fontes[:] = [f for f in fontes if f["arquivo"] != arquivo.name]
+        fontes.append(nova_fonte)
+
     data_store.salvar(dados)
-    st.success(f"{len(dimensoes)} vigas e {len(todos_pilares)} pilares processados e salvos.")
+    st.success(f"{len(arquivos)} arquivo(s) processado(s) e adicionado(s) ao projeto.")
     st.rerun()
+
+fontes = dados.get("fontes_estruturais", [])
+if fontes:
+    st.markdown("**Arquivos carregados no projeto:**")
+    for i, fonte in enumerate(fontes):
+        col_check, col_info, col_remover = st.columns([1, 4, 1])
+        ativo = col_check.checkbox(
+            "Incluir", value=fonte.get("ativo", True), key=f"fonte_ativa_{i}"
+        )
+        if ativo != fonte.get("ativo", True):
+            fonte["ativo"] = ativo
+            data_store.salvar(dados)
+        col_info.write(
+            f"**{fonte['arquivo']}** — pavimento {fonte['pavimento']} "
+            f"({len(fonte['vigas'])} vigas, {len(fonte['pilares'])} pilares)"
+        )
+        if col_remover.button("🗑️ Remover", key=f"fonte_remover_{i}"):
+            fontes.pop(i)
+            data_store.salvar(dados)
+            st.rerun()
+else:
+    st.info("Nenhum arquivo .LST carregado ainda.")
 
 st.divider()
 

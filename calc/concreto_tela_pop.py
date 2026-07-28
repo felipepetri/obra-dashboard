@@ -8,6 +8,7 @@ entrada (vigas já agregadas por pavimento) vêm do que foi salvo em
 import pandas as pd
 
 import calculos
+import data_store
 from models import Pilar, Viga
 
 NOME = "Vigas e Pilares (TQS)"
@@ -15,7 +16,7 @@ NOME = "Vigas e Pilares (TQS)"
 
 def calcular(dados: dict):
     fck_padrao = dados.get("parametros_gerais", {}).get("fck_padrao_mpa", 25)
-    vigas_salvas = dados.get("lst_dados", {}).get("vigas", [])
+    vigas_salvas = data_store.vigas_ativas(dados)
 
     vigas = [
         Viga(
